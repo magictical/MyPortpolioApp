@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.myportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E0E0E0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:text="My Nanodegree Apps!"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/spotifyStreamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPOTIFY STREAMER"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FF9800"
+            />
+
+        <Button
+            android:id="@+id/scoresApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCORES APP"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FF9800"
+            />
+
+        <Button
+            android:id="@+id/libraryApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIBRARY APP"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FF9800"
+            />
+
+        <Button
+            android:id="@+id/buildItbigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUILD IT BIGGER"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FF9800"
+            />
+
+        <Button
+            android:id="@+id/xyzReader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XYZ READER"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FF9800"
+            />
+
+        <Button
+            android:id="@+id/capStone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPSTONE: MY OWN APP"
+            android:textSize="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#1DE9B6"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
