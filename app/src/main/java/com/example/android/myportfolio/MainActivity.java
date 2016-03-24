@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        //added OnClickListener and Toast
         spotifyButton = (Button) findViewById(R.id.spotifyStreamer);
         spotifyButton.setOnClickListener(new View.OnClickListener() {
             @Override

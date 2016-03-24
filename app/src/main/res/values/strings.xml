@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MyAppPortfolio</string>
     <string name="action_settings">Settings</string>
-    
+
+    //added some msg for Toast text
     <string name="spotify">this button will launch spotifystreamer App!!!</string>
     <string name="scores">this button will launch scores App!!! </string>
     <string name="library">this button will launch library App!!!</string>
