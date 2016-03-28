@@ -27,46 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //added OnClickListener and Toast
-        spotifyButton = (Button) findViewById(R.id.spotifyStreamer);
-        spotifyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.spotify, Toast.LENGTH_SHORT).show();
+        //to see the comparison between onClick and OnClickListener, leave a OnClickListener's code
 
-            }
-        });
-
-        scoresButton = (Button) findViewById(R.id.scoresApp);
-        scoresButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this,R.string.scores,Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        library = (Button) findViewById(R.id.libraryApp);
-        library.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this,R.string.library,Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        buildItBigger = (Button) findViewById(R.id.buildItbigger);
-        buildItBigger.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.builditbigger,Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        xyzReader = (Button) findViewById(R.id.xyzReader);
-        xyzReader.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.xyzReader, Toast.LENGTH_SHORT).show();
-            }
-        });
         capStone = (Button) findViewById(R.id.capStone);
         capStone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +37,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    //added OnClick method instead of OnClickListener see the difference
+    // http://stackoverflow.com/questions/21319996/android-onclick-in-xml-vs-onclicklistener
+    //요약 : 간단한곳은 onClick 다양한 옵션이 필요한 리스너의 경우 OnClickListener
+    public void clickOnSpotify(View v) {
+        Toast.makeText(MainActivity.this, R.string.spotify, Toast.LENGTH_SHORT).show();
+    }
+
+    public void clickOnScores(View v) {
+        Toast.makeText(MainActivity.this,R.string.scores,Toast.LENGTH_SHORT).show();
+    }
+
+    public void clickOnLibrary(View v) {
+        Toast.makeText(MainActivity.this,R.string.library,Toast.LENGTH_SHORT).show();
+    }
+
+    public void clickOnBuildIt(View v) {
+        Toast.makeText(MainActivity.this, R.string.builditbigger,Toast.LENGTH_SHORT).show();
+    }
+
+    public void clickOnXyzReader(View v) {
+        Toast.makeText(MainActivity.this, R.string.xyzReader, Toast.LENGTH_SHORT).show();
     }
 
     @Override

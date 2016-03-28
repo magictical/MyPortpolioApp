@@ -2,7 +2,17 @@
     <string name="app_name">MyAppPortfolio</string>
     <string name="action_settings">Settings</string>
 
-    //added some msg for Toast text
+    <!--added string for button name text-->
+    <string name="spotifyButton">"SPOTIFY STREAMER"</string>
+    <string name="scoresButton">"SCORES APP</string>
+    <string name="libraryButton">"LIBRARY APP</string>
+    <string name="buildItButton">"BUILD IT BIGGER</string>
+    <string name="xyzButton">"XYZ READER</string>
+    <string name="capStoneButton">"CAPSTONE: MY OWN APP"</string>
+
+
+
+    <!--added some msg for Toast text-->
     <string name="spotify">this button will launch spotifystreamer App!!!</string>
     <string name="scores">this button will launch scores App!!! </string>
     <string name="library">this button will launch library App!!!</string>

@@ -4,4 +4,8 @@
     <color name="colorPrimary">#212121</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMainLayoutBackGround">#E0E0E0</color>
+    <color name="colorButton">#FF9800</color>
+    <color name="colorCapStoneButton">#1DE9B6</color>
 </resources>
